@@ -1,0 +1,3 @@
+function getEmptyStruct(s)
+
+end
