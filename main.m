@@ -2,8 +2,6 @@ function main()
 
 global OutputFile Trees hRoots hMenu simplifiedSchema schema Settings
 close all;
-clear all;
-clearvars -global
 
 addpath('./XML_Structures');
 % load('schema.mat');
