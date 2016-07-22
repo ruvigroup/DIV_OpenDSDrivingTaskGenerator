@@ -2,8 +2,12 @@ function main()
 
 global OutputFile Trees hRoots hMenu simplifiedSchema schema Settings
 close all;
+clear all;
+clearvars -global
+
 addpath('./XML_Structures');
-load('schema.mat');
+% load('schema.mat');
+load('schema.4.0.mat');
 simplifiedSchema = rmfield(schema, {'Attributes', 'simpleType'});
 
 % Initialize Global structures
